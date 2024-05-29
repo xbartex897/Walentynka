@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+    function runaway(id) {
+        id.style.top = Math.round(Math.random() * 250) - 100 + 'px';
+        id.style.left = Math.round(Math.random() * 250) - 200 + 'px';
+    }
+</script>
+    <div>
+        <h2>Czy chcesz zostać moją walentynką?</h2>
+        <footer class="boklewa"></footer>
+        <footer class="bokprawa"></footer>
+            <button id="Tak"><a href="https://c.tenor.com/jvsVBSMabc4AAAAC/tenor.gif"> Tak</a></button>
+            <button id="move" onmouseover="runaway(this)">Nie</button>
+    </div>  
+</body>
+</html>

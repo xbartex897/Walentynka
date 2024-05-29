@@ -1,0 +1,43 @@
+body{
+    background: #e191f1;
+}
+div{
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(243, 68, 68);
+    text-align: center;
+}
+button{
+    color: rgb(255, 255, 255);
+    background: #000; 
+    border: none;
+}
+#move{
+    position: relative;
+}
+#tak{
+    color: white;
+}
+
+.boklewa{
+    width: 300px;
+    background-color: red;
+    height: 2200px;
+    position: absolute; left: 800px; top: -500px;
+    background-image: url(tlobok.jpg);
+    background-repeat: repeat-y;
+}
+.bokprawa{
+    width: 300px;
+    background-color: red;
+    height: 2200px;
+    position: absolute; right: 800px; top: -500px;
+    background-image: url(tlobok.jpg);
+    background-repeat: repeat-y;
+}
